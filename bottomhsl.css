@@ -1,9 +1,3 @@
-/**
- * @name BottomHSL
- * @author Gibbu#1211
- * @version 1.0.0
- * @description Horizontal Server List bottom addon
-*/
 body #app-mount .app-1q1i1E .base-3dtUhz {
   top: 0 !important;
   bottom: var(--server-container) !important;
