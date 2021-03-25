@@ -9,7 +9,7 @@ body #app-mount {
     top: 0 !important;
     bottom: var(--server-container) !important;
   }
-  .wrapper-1Rf91z.guilds-1SWlCJ {
+  .guilds-1SWlCJ {
     top: unset !important;
     left: 100vw;
     bottom: 0 !important;
@@ -30,12 +30,12 @@ body #app-mount {
       }
     }
   }
-  .listItemTooltip-CDcY8J {
+  [class*="listItemTooltip"] {
     position: absolute;
     white-space: nowrap;
     top: calc(var(--server-size) / -1 - 30px) !important;
     margin-left: calc(var(--server-size) / -1 - 20px);
-    .tooltipPointer-3ZfirK {
+    [class*="tooltipPointer"] {
       transform: rotate(0) !important;
       top: unset !important;
       bottom: -10px !important;
