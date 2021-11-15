@@ -4,6 +4,10 @@
  * @version 1.0.0
  * @description Moves the Windows buttons to the right of the toolbar, just like the old Discord.
 */
+:root {
+  --TB-header-padding: 125px;
+}
+
 .platform-win {
   .typeWindows-1za-n7 {
     height: 9px;
@@ -28,7 +32,7 @@
     }
   }
   .container-1r6BKw {
-    padding-right: var(--TB-header-padding, 125px);
+    padding-right: var(--TB-header-padding);
   }
   .wordmarkWindows-1v0lYD {
     display: none;

@@ -1,3 +1,6 @@
+:root {
+  --TB-header-padding: 125px;
+}
 .platform-win .typeWindows-1za-n7 {
   height: 9px;
   margin-top: 0;
@@ -21,7 +24,7 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 .platform-win .container-1r6BKw {
-  padding-right: var(--TB-header-padding, 125px);
+  padding-right: var(--TB-header-padding);
 }
 .platform-win .wordmarkWindows-1v0lYD {
   display: none;
