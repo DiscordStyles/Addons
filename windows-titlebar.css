@@ -32,3 +32,7 @@
 .platform-win #app-mount.bd-detached-editor .winButton-iRh8-Z {
   right: 30%;
 }
+.platform-win .closeButton-3cJIM4 {
+  right: unset;
+  left: 0;
+}
