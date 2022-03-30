@@ -2,7 +2,7 @@
   --TB-header-padding: 125px;
 }
 .platform-win .typeWindows-2-g3UY {
-  height: 9px;
+  height: var(--TB-bar-height, 9px);
   margin-top: 0;
   position: absolute;
   top: 1px;
