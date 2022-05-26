@@ -36,3 +36,6 @@
   right: unset;
   left: 0;
 }
+.platform-win #app-mount .typeWindows-2-g3UY::before {
+  content: none !important;
+}
