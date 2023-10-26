@@ -1,7 +1,7 @@
 :root {
   --TB-header-padding: 125px;
 }
-.platform-win .typeWindows-3ILlhq {
+.platform-win .typeWindows__5fa63 {
   height: var(--TB-bar-height, 9px);
   margin-top: 0;
   position: absolute;
@@ -10,32 +10,32 @@
   width: 100%;
   background: transparent;
 }
-.platform-win .winButtonClose-23zAIt {
+.platform-win .winButtonClose__73489 {
   border-top-right-radius: var(--TB-tr-roundness);
 }
-.platform-win .winButton-3SigSb {
+.platform-win .winButton__88672 {
   position: relative;
   top: calc(var(--TB-position-top, 0px) - 1px);
   right: var(--TB-position-right, 0px);
   height: var(--TB-height, 48px);
   width: var(--TB-width, 40px);
 }
-.platform-win .winButton-3SigSb:not(.winButtonClose-23zAIt):hover {
+.platform-win .winButton__88672:not(.winButtonClose__73489):hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.platform-win .container-ZMc96U {
+.platform-win .container__11d72 {
   padding-right: var(--TB-header-padding);
 }
-.platform-win .wordmarkWindows-1rsity {
+.platform-win .wordmarkWindows__05c46 {
   display: none;
 }
-.platform-win #app-mount.bd-detached-editor .winButton-3SigSb {
+.platform-win #app-mount.bd-detached-editor .winButton__88672 {
   right: 30%;
 }
-.platform-win .closeButton-30b1gR {
+.platform-win .closeButton_ffc97a {
   right: unset;
   left: 0;
 }
-.platform-win #app-mount .typeWindows-3ILlhq::before {
+.platform-win #app-mount .typeWindows__5fa63::before {
   content: none !important;
 }
