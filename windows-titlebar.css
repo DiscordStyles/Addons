@@ -1,7 +1,7 @@
 :root {
   --TB-header-padding: 125px;
 }
-.platform-win .typeWindows__5fa63 {
+.platform-win .typeWindows_e41dab {
   height: var(--TB-bar-height, 9px);
   margin-top: 0;
   position: absolute;
@@ -10,32 +10,32 @@
   width: 100%;
   background: transparent;
 }
-.platform-win .winButtonClose__73489 {
+.platform-win .winButtonClose__6396d {
   border-top-right-radius: var(--TB-tr-roundness);
 }
-.platform-win .winButton__88672 {
+.platform-win .winButton_f17fb6 {
   position: relative;
   top: calc(var(--TB-position-top, 0px) - 1px);
   right: var(--TB-position-right, 0px);
   height: var(--TB-height, 48px);
   width: var(--TB-width, 40px);
 }
-.platform-win .winButton__88672:not(.winButtonClose__73489):hover {
+.platform-win .winButton_f17fb6:not(.winButtonClose__6396d):hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.platform-win .container__11d72 {
+.platform-win .container__26baa {
   padding-right: var(--TB-header-padding);
 }
-.platform-win .wordmarkWindows__05c46 {
+.platform-win .wordmarkWindows_ffbc5e {
   display: none;
 }
-.platform-win #app-mount.bd-detached-editor .winButton__88672 {
+.platform-win #app-mount.bd-detached-editor .winButton_f17fb6 {
   right: 30%;
 }
-.platform-win .closeButton_ffc97a {
+.platform-win .closeButton__90904 {
   right: unset;
   left: 0;
 }
-.platform-win #app-mount .typeWindows__5fa63::before {
+.platform-win #app-mount .typeWindows_e41dab::before {
   content: none !important;
 }
